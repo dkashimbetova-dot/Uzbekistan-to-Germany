@@ -1,0 +1,742 @@
+<!DOCTYPE html>
+<html lang="ru" data-theme="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Понятный маршрут поступления в Германию: Studienkolleg, Feststellungsprüfung, университет, документы, язык, виза и бюджет.">
+<title>STUDY IN GERMANY — твой маршрут в немецкий университет</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--ink:#14251f;--muted:#64736d;--paper:#f6f5ef;--surface:#fffefa;--line:#e4e8df;--green:#176b50;--green2:#0e4d3a;--lime:#d5f36a;--orange:#f29b62;--shadow:0 24px 70px rgba(25,49,39,.11);--nav:rgba(246,245,239,.86);--radius:24px;--ease:cubic-bezier(.2,.75,.25,1)}
+[data-theme=dark]{--ink:#edf5ee;--muted:#a7b7ad;--paper:#101b17;--surface:#182720;--line:#2b3d34;--green:#8ad4ae;--green2:#b4e6c6;--lime:#c9ef68;--orange:#f5a879;--shadow:0 24px 70px rgba(0,0,0,.28);--nav:rgba(16,27,23,.88)}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;scroll-padding-top:90px}
+body{font-family:"DM Sans",sans-serif;background:var(--paper);color:var(--ink);line-height:1.65;overflow-x:hidden;transition:background .35s,color .35s}
+a{color:inherit}button,input,select{font:inherit}button{cursor:pointer}
+img{max-width:100%;display:block}
+.wrap{width:min(1180px,calc(100% - 48px));margin:auto}
+.eyebrow{display:inline-flex;align-items:center;gap:9px;text-transform:uppercase;letter-spacing:.16em;font-size:.72rem;font-weight:800;color:var(--green)}
+.eyebrow:before{content:"";width:24px;height:2px;background:var(--orange)}
+.section{padding:112px 0}
+.section-head{max-width:720px;margin-bottom:48px}
+.section-head.center{text-align:center;margin:0 auto 55px}
+.section-head.center .eyebrow{justify-content:center}
+h1,h2,h3,h4{font-family:Manrope,sans-serif;letter-spacing:-.045em;line-height:1.1}
+h2{font-size:clamp(2.2rem,4vw,3.6rem);font-weight:800;margin:14px 0 18px}
+.lead{font-size:1.12rem;color:var(--muted);max-width:670px}
+.muted{color:var(--muted)}
+.small{font-size:.88rem}
+.topbar{background:var(--green2);color:#eaf4e9;font-size:.78rem;letter-spacing:.03em;padding:8px 0}
+.topbar .wrap{display:flex;justify-content:space-between;gap:16px;align-items:center}
+.topbar a{color:var(--lime);text-decoration:none}
+.nav{position:sticky;top:0;z-index:50;background:var(--nav);backdrop-filter:blur(18px);border-bottom:1px solid transparent;transition:.3s}
+.nav.scrolled{border-color:var(--line);box-shadow:0 8px 30px rgba(0,0,0,.05)}
+.nav-inner{height:76px;display:flex;align-items:center;justify-content:space-between;gap:24px}
+.brand{display:flex;align-items:center;gap:10px;text-decoration:none;font-family:Manrope;font-weight:900;letter-spacing:-.06em;font-size:1.15rem}
+.brand-mark{width:34px;height:34px;border-radius:11px;background:var(--green);display:grid;place-items:center;color:#fff;font-weight:900;font-size:.9rem;transform:rotate(-6deg)}
+.brand span:last-child{color:var(--green)}
+.nav-links{display:flex;gap:26px;list-style:none}
+.nav-links a{text-decoration:none;font-size:.86rem;font-weight:700;color:var(--muted);transition:.2s}
+.nav-links a:hover{color:var(--green)}
+.nav-actions{display:flex;gap:10px;align-items:center}
+.icon-btn{width:42px;height:42px;border:1px solid var(--line);border-radius:50%;background:var(--surface);color:var(--ink);font-size:1rem}
+.btn{border:0;border-radius:999px;padding:14px 22px;background:var(--green);color:white;text-decoration:none;font-size:.9rem;font-weight:800;display:inline-flex;align-items:center;justify-content:center;gap:10px;transition:transform .25s,box-shadow .25s,background .25s;box-shadow:0 9px 22px rgba(23,107,80,.2)}
+.btn:hover{transform:translateY(-3px);box-shadow:0 14px 28px rgba(23,107,80,.27);background:var(--green2)}
+.btn.light{background:var(--lime);color:#1c3025;box-shadow:none}
+.btn.ghost{background:transparent;color:var(--ink);border:1px solid var(--line);box-shadow:none}
+.btn.ghost:hover{border-color:var(--green);color:var(--green)}
+.menu-btn{display:none}
+.hero{position:relative;min-height:710px;padding:92px 0 78px;overflow:hidden;background:var(--paper)}
+.hero:before{content:"";position:absolute;width:650px;height:650px;border-radius:50%;background:radial-gradient(circle,rgba(213,243,106,.24),transparent 68%);top:-250px;left:-170px;pointer-events:none}
+.hero-grid{display:grid;grid-template-columns:1.02fr .98fr;gap:54px;align-items:center;position:relative;z-index:1}
+.hero-copy{padding:24px 0}
+.hero-kicker{display:inline-flex;align-items:center;gap:10px;padding:8px 13px;border:1px solid var(--line);border-radius:99px;background:var(--surface);font-size:.78rem;font-weight:800;color:var(--green);margin-bottom:24px}
+.live-dot{width:8px;height:8px;background:#8cbe45;border-radius:50%;box-shadow:0 0 0 5px rgba(140,190,69,.15)}
+.hero h1{font-size:clamp(3.2rem,6vw,5.9rem);font-weight:800;line-height:.99;max-width:680px;margin-bottom:26px}
+.hero h1 em{font-style:normal;color:var(--green);position:relative;white-space:nowrap}
+.hero h1 em:after{content:"";position:absolute;height:9px;left:0;right:0;bottom:-7px;background:var(--lime);z-index:-1;border-radius:9px;transform:rotate(-1.4deg)}
+.hero-copy>p{font-size:1.12rem;color:var(--muted);max-width:540px;margin-bottom:32px}
+.hero-ctas{display:flex;gap:12px;flex-wrap:wrap}
+.hero-note{display:flex;align-items:center;gap:12px;margin-top:34px;color:var(--muted);font-size:.82rem}
+.avatar-stack{display:flex}
+.avatar-stack span{width:30px;height:30px;border-radius:50%;display:grid;place-items:center;background:#e4b48f;border:2px solid var(--paper);margin-left:-7px;font-size:.8rem}
+.avatar-stack span:first-child{margin:0;background:#b8d6c4}.avatar-stack span:last-child{background:#e8d38c}
+.hero-visual{position:relative;min-height:520px}
+.hero-photo{position:absolute;inset:0 18px 28px 18px;border-radius:34px;overflow:hidden;box-shadow:var(--shadow);transform:rotate(1.4deg)}
+.hero-photo img{width:100%;height:100%;object-fit:cover;filter:saturate(.83)}
+.hero-photo:after{content:"";position:absolute;inset:35% 0 0;background:linear-gradient(transparent,rgba(9,28,20,.65))}
+.photo-caption{position:absolute;left:42px;bottom:58px;color:white;z-index:2}
+.photo-caption b{display:block;font:800 1.55rem Manrope;letter-spacing:-.04em}
+.photo-caption span{font-size:.82rem;opacity:.85}
+.float-card{position:absolute;background:var(--surface);border:1px solid var(--line);box-shadow:var(--shadow);border-radius:18px;padding:17px 19px;z-index:3;animation:float 6s ease-in-out infinite}
+.float-card.top{right:-5px;top:48px}
+.float-card.bottom{left:-14px;bottom:0;animation-delay:-3s}
+.float-card strong{display:block;font:800 1.35rem Manrope;color:var(--green)}
+.float-card small{color:var(--muted);font-size:.74rem}
+@keyframes float{0%,100%{transform:translateY(0) rotate(0)}50%{transform:translateY(-12px) rotate(1deg)}}
+.trust-strip{border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:24px 0}
+.trust-inner{display:flex;justify-content:space-between;gap:24px;align-items:center;flex-wrap:wrap}
+.trust-label{font-size:.72rem;text-transform:uppercase;letter-spacing:.14em;color:var(--muted);font-weight:800}
+.trust-item{font:800 1rem Manrope;color:var(--muted);display:flex;align-items:center;gap:9px}
+.trust-item span{color:var(--green);font-size:1.25rem}
+.path-section{background:var(--surface)}
+.path-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
+.path-card{padding:25px;border:1px solid var(--line);border-radius:20px;background:var(--paper);position:relative;overflow:hidden;transition:.3s}
+.path-card:hover{transform:translateY(-7px);box-shadow:var(--shadow);border-color:var(--green)}
+.path-num{font:800 2.5rem Manrope;color:var(--green);opacity:.35}
+.path-card h3{font-size:1.08rem;margin:16px 0 10px}
+.path-card p{font-size:.87rem;color:var(--muted)}
+.path-card .arrow{position:absolute;right:20px;top:24px;color:var(--orange);font-size:1.3rem}
+.notice{padding:20px 22px;border-radius:16px;background:rgba(242,155,98,.13);border:1px solid rgba(242,155,98,.32);display:flex;gap:14px;margin-top:28px}
+.notice b{display:block;margin-bottom:4px}.notice p{font-size:.9rem;color:var(--muted)}
+.split{display:grid;grid-template-columns:.9fr 1.1fr;gap:70px;align-items:center}
+.split-photo{height:550px;border-radius:28px;overflow:hidden;position:relative}
+.split-photo img{width:100%;height:100%;object-fit:cover}
+.photo-tag{position:absolute;bottom:22px;left:22px;padding:12px 16px;border-radius:12px;background:rgba(255,255,255,.93);color:#173b2b;font-size:.8rem;font-weight:800}
+.check-list{display:grid;gap:15px;margin:26px 0}
+.check{display:flex;gap:13px;align-items:flex-start}
+.check-icon{flex:0 0 27px;height:27px;border-radius:9px;background:rgba(23,107,80,.12);color:var(--green);display:grid;place-items:center;font-weight:900}
+.check b{display:block;margin-bottom:3px}.check p{color:var(--muted);font-size:.9rem}
+.course-section{background:var(--green2);color:#f1f7ed;position:relative;overflow:hidden}
+.course-section:after{content:"DE";position:absolute;right:-20px;top:-100px;font:900 28rem Manrope;color:rgba(255,255,255,.035);pointer-events:none}
+.course-section .eyebrow{color:var(--lime)}.course-section .lead{color:#c0d0c4}
+.course-layout{display:grid;grid-template-columns:.7fr 1.3fr;gap:40px;position:relative;z-index:1}
+.course-tabs{display:grid;gap:10px;align-content:start}
+.course-tab{border:1px solid rgba(255,255,255,.2);background:transparent;color:#eaf2e9;border-radius:14px;padding:16px 18px;text-align:left;display:flex;justify-content:space-between;align-items:center;font-weight:800;transition:.25s}
+.course-tab span{font-size:.75rem;opacity:.65;font-weight:500}
+.course-tab.active,.course-tab:hover{background:var(--lime);color:#173b2b;border-color:var(--lime)}
+.course-detail{background:#f6f5ef;color:#183326;border-radius:24px;padding:34px;min-height:340px;box-shadow:0 20px 60px rgba(0,0,0,.16)}
+.course-detail .course-code{font:900 4rem Manrope;letter-spacing:-.08em;color:var(--green);line-height:1}
+.course-detail h3{font-size:1.65rem;margin:13px 0}
+.course-detail p{color:#65756b}
+.subject-pills{display:flex;gap:8px;flex-wrap:wrap;margin:20px 0}
+.subject-pills span{padding:7px 11px;border-radius:99px;background:#e7eee5;color:#315743;font-size:.76rem;font-weight:800}
+.course-detail .course-foot{border-top:1px solid #dce5dc;padding-top:16px;font-size:.85rem;color:#65756b}
+.timeline{position:relative;margin-top:35px}
+.timeline:before{content:"";position:absolute;left:19px;top:18px;bottom:18px;width:2px;background:var(--line)}
+.step{display:grid;grid-template-columns:40px 1fr;gap:22px;position:relative;padding:0 0 30px}
+.step:last-child{padding-bottom:0}
+.step-dot{width:40px;height:40px;border-radius:50%;background:var(--surface);border:2px solid var(--green);display:grid;place-items:center;color:var(--green);font-weight:900;z-index:1}
+.step-body{padding:3px 0 0}
+.step-body h3{font-size:1.16rem;margin-bottom:8px}
+.step-body p{color:var(--muted);font-size:.92rem;max-width:800px}
+.step-meta{display:inline-block;margin-top:10px;color:var(--green);font-size:.76rem;font-weight:800;background:rgba(23,107,80,.09);padding:5px 10px;border-radius:99px}
+.doc-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.doc-card{padding:24px;border:1px solid var(--line);border-radius:18px;background:var(--surface);transition:.3s}
+.doc-card:hover{transform:translateY(-5px);box-shadow:var(--shadow)}
+.doc-card .doc-icon{font-size:1.7rem;margin-bottom:15px}
+.doc-card h3{font-size:1.05rem;margin-bottom:9px}
+.doc-card p{font-size:.86rem;color:var(--muted)}
+.doc-card small{display:block;color:var(--green);font-weight:800;margin-top:12px}
+.exam-band{display:grid;grid-template-columns:1fr 1fr;gap:20px;margin-top:22px}
+.exam-box{border-radius:20px;padding:26px;background:var(--surface);border:1px solid var(--line)}
+.exam-box h3{margin-bottom:10px}.exam-box p,.exam-box li{font-size:.9rem;color:var(--muted)}
+.exam-box ul{padding-left:18px;margin-top:10px}
+.budget{background:#e9eee5;color:#173326}
+[data-theme=dark] .budget{background:#20362a;color:var(--ink)}
+.budget-grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:45px;align-items:start}
+.calc{background:var(--surface);border:1px solid var(--line);border-radius:24px;padding:28px;box-shadow:var(--shadow)}
+
+/* ===== CONTINUED CSS ===== */
+.calc-grid{
+ display:grid;
+ grid-template-columns:1fr 1fr;
+ gap:24px;
+}
+.calc-controls{display:grid;gap:20px}
+.field{display:grid;gap:8px}
+.field label{font-weight:700;font-size:14px}
+.field input,.field select{
+ width:100%;padding:13px 15px;
+ border:1px solid var(--line);
+ border-radius:12px;
+ background:var(--bg);color:var(--text);
+ font:inherit;
+}
+.calc-result{
+ background:var(--primary);
+ color:white;border-radius:20px;
+ padding:26px;display:flex;
+ flex-direction:column;justify-content:center;
+}
+.calc-result h3{font-size:17px;margin-bottom:10px}
+.calc-number{font-size:38px;font-weight:900;margin:12px 0}
+.calc-result p{opacity:.85;font-size:14px}
+.result-row{
+ display:flex;justify-content:space-between;
+ gap:12px;padding:12px 0;
+ border-bottom:1px solid #ffffff35;
+}
+.result-row:last-child{border:0}
+.course-grid,.steps-grid,.resource-grid{
+ display:grid;grid-template-columns:repeat(3,1fr);
+ gap:18px;
+}
+.course-card,.step-card,.resource-card{
+ background:var(--surface);
+ border:1px solid var(--line);
+ padding:22px;border-radius:18px;
+ transition:.3s;
+}
+.course-card:hover,.step-card:hover,.resource-card:hover{
+ transform:translateY(-5px);
+ box-shadow:var(--shadow);
+}
+.course-letter{
+ display:inline-grid;place-items:center;
+ width:43px;height:43px;border-radius:13px;
+ background:var(--primary);color:white;
+ font-weight:900;font-size:20px;margin-bottom:15px;
+}
+.course-card h3,.step-card h3,.resource-card h3{
+ margin-bottom:10px;font-size:19px;
+}
+.course-card p,.step-card p,.resource-card p{
+ color:var(--muted);font-size:14px;line-height:1.7;
+}
+.course-card .tag{
+ display:inline-block;margin-top:15px;
+ padding:6px 10px;border-radius:20px;
+ background:var(--soft);color:var(--primary);
+ font-size:12px;font-weight:700;
+}
+.course-selector{
+ display:flex;flex-wrap:wrap;gap:10px;margin:22px 0;
+}
+.course-selector button{
+ border:1px solid var(--line);
+ border-radius:30px;padding:10px 18px;
+ background:var(--surface);color:var(--text);
+ cursor:pointer;font-weight:700;
+}
+.course-selector button.active{
+ background:var(--primary);color:white;
+}
+.course-info{
+ background:var(--soft);border-radius:18px;
+ padding:25px;min-height:150px;
+}
+.course-info h3{margin-bottom:10px}
+.course-info p{color:var(--muted);line-height:1.7}
+.timeline{position:relative;max-width:850px;margin:auto}
+.timeline:before{
+ content:"";position:absolute;left:19px;top:10px;
+ bottom:10px;width:2px;background:var(--line);
+}
+.timeline-item{
+ position:relative;padding:0 0 30px 60px;
+}
+.timeline-dot{
+ position:absolute;left:9px;top:3px;
+ width:22px;height:22px;border-radius:50%;
+ background:var(--primary);border:5px solid var(--soft);
+}
+.timeline-item h3{margin-bottom:8px}
+.timeline-item p{color:var(--muted);line-height:1.7}
+.timeline-item small{color:var(--primary);font-weight:800}
+.faq-list{max-width:850px;margin:auto}
+.faq-item{
+ border:1px solid var(--line);
+ border-radius:15px;margin-bottom:12px;
+ overflow:hidden;background:var(--surface);
+}
+.faq-question{
+ width:100%;padding:20px;
+ display:flex;justify-content:space-between;
+ gap:15px;text-align:left;
+ background:none;border:0;color:var(--text);
+ font:inherit;font-weight:800;cursor:pointer;
+}
+.faq-answer{
+ display:none;padding:0 20px 20px;
+ color:var(--muted);line-height:1.8;
+}
+.faq-item.open .faq-answer{display:block}
+.faq-item.open .faq-icon{transform:rotate(45deg)}
+.faq-icon{transition:.2s;font-size:22px}
+.cta{
+ background:linear-gradient(135deg,var(--primary),#2876bc);
+ color:white;padding:55px 35px;
+ border-radius:25px;text-align:center;
+}
+.cta h2{font-size:clamp(25px,4vw,38px);margin-bottom:15px}
+.cta p{opacity:.9;max-width:650px;margin:0 auto 25px}
+.cta .btn{background:white;color:var(--primary)}
+footer{
+ padding:45px 0 25px;border-top:1px solid var(--line);
+ background:var(--surface);
+}
+.footer-grid{
+ display:grid;grid-template-columns:2fr 1fr 1fr;
+ gap:30px;
+}
+footer p,footer a{color:var(--muted);font-size:14px;line-height:2}
+footer h3{margin-bottom:12px}
+.footer-bottom{
+ border-top:1px solid var(--line);
+ margin-top:30px;padding-top:20px;
+ color:var(--muted);font-size:13px;
+}
+.btn{
+ display:inline-flex;align-items:center;
+ justify-content:center;gap:8px;
+ padding:13px 22px;border-radius:12px;
+ background:var(--primary);color:white;
+ text-decoration:none;font-weight:800;
+ border:0;cursor:pointer;
+ transition:.2s;
+}
+.btn:hover{transform:translateY(-2px);opacity:.9}
+.btn-outline{
+ background:transparent;color:var(--primary);
+ border:1px solid var(--primary);
+}
+.section-subtitle{
+ max-width:700px;color:var(--muted);
+ line-height:1.8;margin:12px 0 35px;
+}
+.reveal{
+ opacity:0;transform:translateY(25px);
+ transition:opacity .7s,transform .7s;
+}
+.reveal.visible{opacity:1;transform:translateY(0)}
+@media(max-width:900px){
+ .course-grid,.steps-grid,.resource-grid{grid-template-columns:repeat(2,1fr)}
+ .calc-grid{grid-template-columns:1fr}
+}
+@media(max-width:650px){
+ .course-grid,.steps-grid,.resource-grid,.footer-grid{grid-template-columns:1fr}
+ .timeline-item{padding-left:48px}
+ .cta{padding:35px 20px}
+}
+
+/* ===== PAGE CONTENT ===== */
+</style>
+</head>
+<body>
+
+<header class="header" id="top">
+ <div class="container nav">
+  <a href="#top" class="logo">STUDY <span>IN GERMANY</span></a>
+  <nav class="nav-links" id="navLinks">
+   <a href="#path">Путь</a>
+   <a href="#courses">Studienkolleg</a>
+   <a href="#steps">Этапы</a>
+   <a href="#budget">Финансы</a>
+   <a href="#faq">FAQ</a>
+  </nav>
+  <div class="nav-actions">
+   <button class="theme-toggle" id="themeToggle" aria-label="Сменить тему">🌙</button>
+   <button class="menu-toggle" id="menuToggle" aria-label="Открыть меню">☰</button>
+  </div>
+ </div>
+</header>
+
+<main>
+
+<section class="section" id="courses">
+ <div class="container">
+  <h2 class="section-title reveal">Какой Studienkolleg выбрать?</h2>
+  <p class="section-subtitle reveal">
+   Направление зависит от того, на какую специальность ты планируешь поступать в университете.
+  </p>
+  <div class="course-grid">
+   <article class="course-card reveal">
+    <div class="course-letter">T</div>
+    <h3>T-Kurs</h3>
+    <p>Для будущих инженеров, программистов, математиков, физиков и технических специалистов.</p>
+    <span class="tag">Технические науки</span>
+   </article>
+   <article class="course-card reveal">
+    <div class="course-letter">M</div>
+    <h3>M-Kurs</h3>
+    <p>Для будущих врачей, биологов, фармацевтов и специалистов в области медицинских наук.</p>
+    <span class="tag">Медицина и биология</span>
+   </article>
+   <article class="course-card reveal">
+    <div class="course-letter">W</div>
+    <h3>W-Kurs</h3>
+    <p>Для экономики, бизнеса, менеджмента, финансов и общественных экономических направлений.</p>
+    <span class="tag">Экономика</span>
+   </article>
+   <article class="course-card reveal">
+    <div class="course-letter">G</div>
+    <h3>G-Kurs</h3>
+    <p>Для гуманитарных наук, истории, литературы, философии и некоторых языковых направлений.</p>
+    <span class="tag">Гуманитарные науки</span>
+   </article>
+   <article class="course-card reveal">
+    <div class="course-letter">S</div>
+    <h3>S-Kurs</h3>
+    <p>Для языковых и филологических направлений в тех учебных заведениях, где этот курс предлагается.</p>
+    <span class="tag">Языки</span>
+   </article>
+  </div>
+ </div>
+</section>
+
+<section class="section" id="selector">
+ <div class="container">
+  <h2 class="section-title reveal">Подборщик направления</h2>
+  <p class="section-subtitle reveal">
+   Выбери интересующую область и посмотри, какой курс может подойти.
+  </p>
+  <div class="course-selector">
+   <button class="active" data-course="T">Техника и IT</button>
+   <button data-course="M">Медицина</button>
+   <button data-course="W">Экономика</button>
+   <button data-course="G">Гуманитарные науки</button>
+   <button data-course="S">Языки</button>
+  </div>
+  <div class="course-info" id="courseInfo">
+   <h3>T-Kurs — техническое направление</h3>
+   <p>Подходит для многих инженерных, математических и технических специальностей. Точный допуск зависит от требований университета.</p>
+  </div>
+ </div>
+</section>
+
+<section class="section" id="steps">
+ <div class="container">
+  <h2 class="section-title reveal">10 этапов поступления в Германию</h2>
+  <p class="section-subtitle reveal">
+   От подготовки документов в Узбекистане до начала учёбы в немецком университете.
+  </p>
+  <div class="steps-grid">
+   <article class="step-card reveal"><div class="course-letter">01</div><h3>Определи цель</h3><p>Выбери специальность, город и предполагаемый университет.</p></article>
+   <article class="step-card reveal"><div class="course-letter">02</div><h3>Проверь образование</h3><p>Узнай, подходит ли твой аттестат для прямого поступления или требуется Studienkolleg.</p></article>
+   <article class="step-card reveal"><div class="course-letter">03</div><h3>Изучи требования</h3><p>Проверь требования конкретных университетов и Studienkolleg.</p></article>
+   <article class="step-card reveal"><div class="course-letter">04</div><h3>Изучи немецкий</h3><p>Подготовься к языковому экзамену. Требуемый уровень зависит от учреждения.</p></article>
+   <article class="step-card reveal"><div class="course-letter">05</div><h3>Подготовь документы</h3><p>Собери аттестат, приложение, переводы и остальные необходимые документы.</p></article>
+   <article class="step-card reveal"><div class="course-letter">06</div><h3>Подай заявку</h3><p>Отправь заявление через портал университета или uni-assist, если это требуется.</p></article>
+   <article class="step-card reveal"><div class="course-letter">07</div><h3>Сдай экзамены</h3><p>Пройди вступительный экзамен Studienkolleg, если он предусмотрен.</p></article>
+   <article class="step-card reveal"><div class="course-letter">08</div><h3>Оформи визу</h3><p>Подготовь финансовые подтверждения и документы для национальной студенческой визы.</p></article>
+   <article class="step-card reveal"><div class="course-letter">09</div><h3>Найди жильё</h3><p>Рассмотри общежития, WG и другие варианты проживания.</p></article>
+   <article class="step-card reveal"><div class="course-letter">10</div><h3>Начни обучение</h3><p>Приезжай, пройди регистрацию и приступай к учёбе.</p></article>
+  </div>
+ </div>
+</section>
+
+<section class="section" id="path">
+ <div class="container">
+  <h2 class="section-title reveal">Твой путь от Узбекистана до университета</h2>
+  <p class="section-subtitle reveal">Основная последовательность поступления. Конкретный маршрут зависит от твоего образования и выбранного вуза.</p>
+  <div class="timeline">
+   <div class="timeline-item reveal"><span class="timeline-dot"></span><small>ЭТАП 1</small><h3>Образование в Узбекистане</h3><p>Получение аттестата и проверка соответствия требованиям немецких вузов.</p></div>
+   <div class="timeline-item reveal"><span class="timeline-dot"></span><small>ЭТАП 2</small><h3>Изучение немецкого языка</h3><p>Подготовка к необходимому языковому уровню и экзаменам.</p></div>
+   <div class="timeline-item reveal"><span class="timeline-dot"></span><small>ЭТАП 3</small><h3>Подача заявки</h3><p>Выбор Studienkolleg и подача всех требуемых документов.</p></div>
+   <div class="timeline-item reveal"><span class="timeline-dot"></span><small>ЭТАП 4</small><h3>Вступительный экзамен</h3><p>Проверка знаний языка и профильных предметов, если требуется.</p></div>
+   <div class="timeline-item reveal"><span class="timeline-dot"></span><small>ЭТАП 5</small><h3>Обучение в Studienkolleg</h3><p>Обычно обучение длится два семестра.</p></div>
+   <div class="timeline-item reveal"><span class="timeline-dot"></span><small>ЭТАП 6</small><h3>Feststellungsprüfung</h3><p>Итоговый экзамен, подтверждающий подготовку к выбранному направлению.</p></div>
+   <div class="timeline-item reveal"><span class="timeline-dot"></span><small>ЭТАП 7</small><h3>Поступление в университет</h3><p>Подача документов с учётом результата FSP и требований вуза.</p></div>
+  </div>
+ </div>
+</section>
+
+<section class="section" id="budget">
+ <div class="container">
+  <h2 class="section-title reveal">Калькулятор расходов</h2>
+  <p class="section-subtitle reveal">Рассчитай примерный месячный бюджет проживания в Германии. Значения можно менять самостоятельно.</p>
+  <div class="calc">
+   <div class="calc-grid">
+    <div class="calc-controls">
+     <div class="field"><label for="rent">Жильё (€ / месяц)</label><input id="rent" type="number" value="450" min="0"></div>
+     <div class="field"><label for="food">Питание (€ / месяц)</label><input id="food" type="number" value="250" min="0"></div>
+     <div class="field"><label for="insurance">Медицинская страховка (€ / месяц)</label><input id="insurance" type="number" value="130" min="0"></div>
+     <div class="field"><label for="transport">Транспорт (€ / месяц)</label><input id="transport" type="number" value="50" min="0"></div>
+     <div class="field"><label for="other">Другие расходы (€ / месяц)</label><input id="other" type="number" value="100" min="0"></div>
+     <div class="field"><label for="months">Количество месяцев</label><input id="months" type="number" value="12" min="1" max="60"></div>
+    </div>
+    <div class="calc-result">
+     <h3>Твой примерный бюджет</h3>
+     <div class="calc-number" id="monthlyTotal">980 €</div>
+     <p>Предполагаемые расходы за один месяц</p>
+     <div class="result-row"><span>За год</span><strong id="yearTotal">11 760 €</strong></div>
+     <div class="result-row"><span>За выбранный период</span><strong id="periodTotal">11 760 €</strong></div>
+     <p style="margin-top:15px">Это ориентировочный расчёт, не официальная сумма для визы. Реальные расходы зависят от города, жилья и актуальных требований.</p>
+    </div>
+   </div>
+  </div>
+ </div>
+</section>
+
+<section class="section" id="resources">
+ <div class="container">
+  <h2 class="section-title reveal">Полезные официальные ресурсы</h2>
+  <p class="section-subtitle reveal">Проверяй информацию на официальных сайтах, поскольку требования и сроки могут меняться.</p>
+  <div class="resource-grid">
+   <article class="resource-card reveal"><h3>DAAD</h3><p>Информация об образовании, университетах и программах Германии.</p><a class="btn btn-outline" href="https://www.daad.de/" target="_blank" rel="noopener">Открыть сайт ↗</a></article>
+   <article class="resource-card reveal"><h3>uni-assist</h3><p>Подача документов для иностранных абитуриентов в участвующие в системе вузы.</p><a class="btn btn-outline" href="https://www.uni-assist.de/" target="_blank" rel="noopener">Открыть сайт ↗</a></article>
+   <article class="resource-card reveal"><h3>Study in Germany</h3><p>Официальная информация об обучении и жизни в Германии.</p><a class="btn btn-outline" href="https://www.study-in-germany.com/" target="_blank" rel="noopener">Открыть сайт ↗</a></article>
+   <article class="resource-card reveal"><h3>Make it in Germany</h3><p>Информация о возможностях переезда, учёбы и работы.</p><a class="btn btn-outline" href="https://www.make-it-in-germany.com/" target="_blank" rel="noopener">Открыть сайт ↗</a></article>
+   <article class="resource-card reveal"><h3>Академическая проверка</h3><p>База Anabin для ознакомления с оценкой иностранных образовательных квалификаций.</p><a class="btn btn-outline" href="https://anabin.kmk.org/" target="_blank" rel="noopener">Открыть сайт ↗</a></article>
+   <article class="resource-card reveal"><h3>Посольство Германии</h3><p>Актуальная информация о визовых требованиях для заявителей из Узбекистана.</p><a class="btn btn-outline" href="https://taschkent.diplo.de/" target="_blank" rel="noopener">Открыть сайт ↗</a></article>
+  </div>
+ </div>
+</section>
+
+<section class="section" id="faq">
+ <div class="container">
+  <h2 class="section-title reveal">Часто задаваемые вопросы</h2>
+  <p class="section-subtitle reveal">Краткие ответы на вопросы будущих студентов.</p>
+  <div class="faq-list">
+   <div class="faq-item"><button class="faq-question"><span>Можно ли поступить из Узбекистана после школы?</span><span class="faq-icon">+</span></button><div class="faq-answer">Да, но конкретный путь зависит от типа и продолжительности полученного образования. В некоторых случаях требуется Studienkolleg. Проверяй индивидуальные требования через DAAD и Anabin.</div></div>
+   <div class="faq-item"><button class="faq-question"><span>Сколько длится Studienkolleg?</span><span class="faq-icon">+</span></button><div class="faq-answer">Стандартная продолжительность обычно составляет два семестра, то есть около одного учебного года.</div></div>
+   <div class="faq-item"><button class="faq-question"><span>Нужно ли знать немецкий язык?</span><span class="faq-icon">+</span></button><div class="faq-answer">Для немецкоязычных Studienkolleg обычно требуется подтверждение знания немецкого языка. Уровень и принимаемые сертификаты определяет конкретное учреждение.</div></div>
+   <div class="faq-item"><button class="faq-question"><span>Можно ли учиться бесплатно?</span><span class="faq-icon">+</span></button><div class="faq-answer">Во многих государственных учреждениях нет обычной платы за обучение, однако могут быть семестровые взносы. Есть исключения в зависимости от федеральной земли и учебного заведения.</div></div>
+   <div class="faq-item"><button class="faq-question"><span>Что такое Feststellungsprüfung?</span><span class="faq-icon">+</span></button><div class="faq-answer">Это итоговый квалификационный экзамен после Studienkolleg. Его успешная сдача позволяет претендовать на поступление по соответствующему направлению с учётом остальных требований.</div></div>
+   <div class="faq-item"><button class="faq-question"><span>Можно ли работать во время учёбы?</span><span class="faq-icon">+</span></button><div class="faq-answer">Для иностранных студентов действуют специальные правила трудоустройства. Перед началом работы необходимо проверить актуальные ограничения и условия своего статуса.</div></div>
+   <div class="faq-item"><button class="faq-question"><span>Гарантирует ли Studienkolleg поступление в университет?</span><span class="faq-icon">+</span></button><div class="faq-answer">Нет. После успешного FSP нужно отдельно подавать документы в университет и соответствовать его требованиям. Могут действовать ограничения по специальности и конкурсу.</div></div>
+  </div>
+ </div>
+</section>
+
+<section class="section">
+ <div class="container">
+  <div class="cta reveal">
+   <h2>Твоё образование может начаться в Германии</h2>
+   <p>Планируй заранее, изучай требования и проверяй информацию. Каждый большой путь начинается с первого шага.</p>
+   <a href="#top" class="btn">Вернуться наверх ↑</a>
+  </div>
+ </div>
+</section>
+
+</main>
+
+<footer>
+ <div class="container">
+  <div class="footer-grid">
+   <div><h3>STUDY IN GERMANY 🇩🇪</h3><p>Информационный проект для тех, кто рассматривает обучение в Германии после получения образования в Узбекистане.</p></div>
+   <div><h3>Навигация</h3><p><a href="#courses">Studienkolleg</a><br><a href="#steps">Этапы поступления</a><br><a href="#budget">Калькулятор</a><br><a href="#faq">Вопросы</a></p></div>
+   <div><h3>Ресурсы</h3><p><a href="https://www.daad.de/" target="_blank" rel="noopener">DAAD</a><br><a href="https://www.uni-assist.de/" target="_blank" rel="noopener">uni-assist</a><br><a href="https://anabin.kmk.org/" target="_blank" rel="noopener">Anabin</a></p></div>
+  </div>
+  <div class="footer-bottom">© 2026 STUDY IN GERMANY. Информационный образовательный проект.</div>
+ </div>
+</footer>
+
+<script>
+/* ===== THEME SWITCHER ===== */
+const themeToggle = document.getElementById('themeToggle');
+
+if (themeToggle) {
+  themeToggle.addEventListener('click', () => {
+    const html = document.documentElement;
+    const current = html.getAttribute('data-theme');
+    const next = current === 'dark' ? 'light' : 'dark';
+
+    html.setAttribute('data-theme', next);
+    themeToggle.textContent = next === 'dark' ? '☀️' : '🌙';
+  });
+}
+
+/* ===== MOBILE MENU ===== */
+const menuToggle = document.getElementById('menuToggle');
+const navLinks = document.getElementById('navLinks');
+
+if (menuToggle && navLinks) {
+  menuToggle.addEventListener('click', () => {
+    navLinks.classList.toggle('active');
+    menuToggle.textContent =
+      navLinks.classList.contains('active') ? '✕' : '☰';
+  });
+
+  navLinks.querySelectorAll('a').forEach(link => {
+    link.addEventListener('click', () => {
+      navLinks.classList.remove('active');
+      menuToggle.textContent = '☰';
+    });
+  });
+}
+
+/* ===== STUDIENKOLLEG COURSE SELECTOR ===== */
+const courseData = {
+  T: {
+    title: 'T-Kurs — техническое направление',
+    description:
+      'Подходит для многих инженерных, математических, компьютерных и технических специальностей. Основные предметы обычно включают математику, физику, химию и немецкий язык.'
+  },
+  M: {
+    title: 'M-Kurs — медицинское направление',
+    description:
+      'Предназначен для абитуриентов, которые планируют изучать медицину, биологию, фармацию и другие естественно-научные направления. Основные предметы: биология, химия, физика и математика.'
+  },
+  W: {
+    title: 'W-Kurs — экономическое направление',
+    description:
+      'Подходит для экономики, бизнеса, менеджмента и финансов. Обычно изучаются математика, экономика, немецкий язык и другие общеобразовательные дисциплины.'
+  },
+  G: {
+    title: 'G-Kurs — гуманитарное направление',
+    description:
+      'Для истории, философии, гуманитарных и некоторых общественных наук. В программу могут входить история, немецкий язык, литература и обществознание.'
+  },
+  S: {
+    title: 'S-Kurs — языковое направление',
+    description:
+      'Предназначен для некоторых языковых и филологических специальностей. Важно проверить наличие S-Kurs в выбранном Studienkolleg: он предлагается не везде.'
+  }
+};
+
+const courseButtons = document.querySelectorAll('[data-course]');
+const courseInfo = document.getElementById('courseInfo');
+
+courseButtons.forEach(button => {
+  button.addEventListener('click', () => {
+    courseButtons.forEach(item => item.classList.remove('active'));
+    button.classList.add('active');
+
+    const selected = courseData[button.dataset.course];
+
+    if (selected && courseInfo) {
+      courseInfo.innerHTML = `
+        <h3>${selected.title}</h3>
+        <p>${selected.description}</p>
+      `;
+    }
+  });
+});
+
+/* ===== BUDGET CALCULATOR ===== */
+const calculatorInputs = [
+  'rent',
+  'food',
+  'insurance',
+  'transport',
+  'other'
+];
+
+function getNumber(id) {
+  const element = document.getElementById(id);
+
+  if (!element) return 0;
+
+  const value = Number(element.value);
+
+  return Number.isFinite(value) && value > 0 ? value : 0;
+}
+
+function formatEuro(value) {
+  return new Intl.NumberFormat('ru-RU', {
+    maximumFractionDigits: 2
+  }).format(value) + ' €';
+}
+
+function calculateBudget() {
+  const monthly = calculatorInputs.reduce(
+    (total, id) => total + getNumber(id),
+    0
+  );
+
+  const monthsElement = document.getElementById('months');
+
+  let months = monthsElement
+    ? Math.floor(Number(monthsElement.value))
+    : 12;
+
+  if (!Number.isFinite(months) || months < 1) {
+    months = 1;
+  }
+
+  months = Math.min(months, 60);
+
+  const monthlyElement = document.getElementById('monthlyTotal');
+  const yearElement = document.getElementById('yearTotal');
+  const periodElement = document.getElementById('periodTotal');
+
+  if (monthlyElement) {
+    monthlyElement.textContent = formatEuro(monthly);
+  }
+
+  if (yearElement) {
+    yearElement.textContent = formatEuro(monthly * 12);
+  }
+
+  if (periodElement) {
+    periodElement.textContent = formatEuro(monthly * months);
+  }
+}
+
+[...calculatorInputs, 'months'].forEach(id => {
+  const element = document.getElementById(id);
+
+  if (element) {
+    element.addEventListener('input', calculateBudget);
+  }
+});
+
+calculateBudget();
+
+/* ===== FAQ ACCORDION ===== */
+document.querySelectorAll('.faq-question').forEach(button => {
+  button.addEventListener('click', () => {
+    const currentItem = button.closest('.faq-item');
+
+    if (!currentItem) return;
+
+    const wasOpen = currentItem.classList.contains('open');
+
+    document.querySelectorAll('.faq-item').forEach(item => {
+      item.classList.remove('open');
+    });
+
+    if (!wasOpen) {
+      currentItem.classList.add('open');
+    }
+  });
+});
+
+/* ===== SCROLL ANIMATIONS ===== */
+const revealElements = document.querySelectorAll('.reveal');
+
+if ('IntersectionObserver' in window) {
+  const observer = new IntersectionObserver(
+    entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+          observer.unobserve(entry.target);
+        }
+      });
+    },
+    { threshold: 0.12 }
+  );
+
+  revealElements.forEach(element => observer.observe(element));
+} else {
+  revealElements.forEach(element => {
+    element.classList.add('visible');
+  });
+}
+
+/* ===== CURRENT YEAR ===== */
+const yearElement = document.querySelector('.footer-bottom');
+
+if (yearElement) {
+  yearElement.textContent = yearElement.textContent.replace(
+    '2026',
+    new Date().getFullYear()
+  );
+}
+
+/* ===== SMOOTH NAVIGATION ===== */
+document.querySelectorAll('a[href^="#"]').forEach(link => {
+  link.addEventListener('click', event => {
+    const target = document.querySelector(link.getAttribute('href'));
+
+    if (target) {
+      event.preventDefault();
+
+      target.scrollIntoView({
+        behavior: 'smooth',
+        block: 'start'
+      });
+    }
+  });
+});
+
+console.log('STUDY IN GERMANY — website loaded successfully 🇩🇪');
+</script>
+
+</body>
+</html>
